@@ -7,10 +7,12 @@ function KeanuImage({
   height,
   width,
   young,
+  grayScale,
 }: {
   height: number;
   width: number;
   young: boolean;
+  grayScale: boolean;
 }) {
   useGetKeanuImage(height, width, young);
 
@@ -30,6 +32,7 @@ function KeanuImage({
           preserveAspectRatio={data.svg.preserveAspectRatio.join(" ")}
         >
           <image
+            className={grayScale ? "grayScale" : ""}
             xlinkHref={data.img.href}
             width={data.img.width}
             height={data.img.height}

@@ -8,3 +8,7 @@
 .keanuImageContainer{
   padding: 10px;
 }
+
+.grayScale{
+  filter: grayscale(1);
+}
