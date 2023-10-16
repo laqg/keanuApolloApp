@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "7.1.5"
+  },
+  "volta": {
+    "node": "18.17.1"
+  },
+  "scripts": {
+    "start": "npx lerna run start",
+    "dev": "npx lerna run dev",
+    "dockerize": "npx lerna run dockerize",
+    "start:docker": "npx lerna run start:docker"
+  }
+}
