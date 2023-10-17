@@ -1,3 +1,7 @@
+# Apollo Keanu Monorepo
+
+This is a Lerna MonoRepo to fetch data from https://placekeanu.com/ and process it and expose it through an Apollo Server backend and to be consumed in in a React App implementing Apollo Client.
+
 ## Installation
 
 This is a lerna monorepo, so recommended usage is:
